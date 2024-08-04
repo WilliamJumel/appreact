@@ -1,0 +1,67 @@
+.accueil-container {
+    position: relative;
+    height: 100vh;
+    background-image: url('/public/banner.jpg'); /* Chemin relatif depuis le dossier public */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .about-section {
+    padding: 50px;
+    background-color: #f4f4f4;
+  }
+  
+  .about-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .about-section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  
+  
