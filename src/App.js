@@ -1,13 +1,15 @@
-import React from "react";
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Accueil from "./Accueil";
 
-class App extends React.Component{
-  render (){
-    return(
-      <div>
-        <h1> bienvenue sur mon application </h1>
-      </div>
-    )
-  }
+const App = () => {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Accueil />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
