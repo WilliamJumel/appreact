@@ -1,7 +1,7 @@
 .accueil-container {
     position: relative;
     height: 100vh;
-    background-image: url('/public/banner.jpg'); /* Chemin relatif depuis le dossier public */
+    background-image: url('/public/banner.jpg'); 
     background-size: cover;
     background-position: center;
   }
